@@ -14,5 +14,18 @@ This repository contains some analysis of possible nerdle answers. Here's a quic
 ### Frequency of symbols per position
 <img src="plots/frequency_of_symbols_per_position.jpg" width="1000">
 
+### Most common answer formats
+The `x`s represent digits, and the percentage is the percentage of all possible answers in that format.
+ 1) `xx+xx=xx`: 18.28%
+ 2) `xx-xx=xx`: 18.28%
+ 3) `xx-x*x=x`:  4.01%
+ 4) `xx-x-x=x`:  3.89%
+ 5) `xx/x-x=x`:  3.83%
+ 6) `x*x+x=xx`:  3.68%
+ 7) `x+x*x=xx`:  3.68%
+ 8) `x+x+x=xx`:  3.64%
+ 9) `xxx/xx=x`:  3.46%
+10) `xxx/x=xx`:  3.46%
+
 
 Take a look at [`analysis.ipynb`](analysis.ipynb) for more!
